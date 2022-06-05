@@ -1,0 +1,225 @@
+body{
+    display: flex;
+    background-color: #FFF;
+    margin: 0%;
+    padding: 0;
+    font-family: 'sans-serif', Helvetica;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.instagram-collumns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.phone-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+}
+
+.phone-img img {
+    height: 40rem;
+    width: auto;
+}
+
+.login-box{
+    display: block;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px;
+    width: 100%;
+    min-height: 30rem;
+    border-radius: 2px;
+    max-width: 20rem;
+    min-width: 20rem;
+}
+
+.ja-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    min-height: 25rem;
+    border-radius: 2px;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.box{
+    display: block;
+    border: 1px solid rgb(186, 184, 184);
+    font-size: 11px;
+    color: rgb(131, 131, 131);
+    margin-left: 30px;
+    max-width: 15rem;
+    padding: 0px 15px 0px 3px;
+    border-radius: 2px;
+    margin-bottom: -15px;
+    
+}
+
+.bot-entrar{
+    background-color: #9ed8ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200000;
+    padding: 0px 112px 0px 112px;
+    margin-top: 15px;
+    border: 5px 0 5px 0;
+    border-radius: 4px;
+    align-self: center;
+    align-items: center;
+}
+
+.ou{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    font-size: 13px;
+    align-self: center;
+}
+
+
+.entrar-face{
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.icon{
+    padding-bottom: -3000px;
+    align-content: flex-end;
+}
+
+.icon img{
+    padding-bottom: -3000px;
+}
+
+.entrar-face a{
+    font-size: 15px;
+    color: rgb(24, 70, 139);
+    text-decoration: none;
+}
+
+.entrar-face a::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: darkblue;
+    margin-right: 5px;
+    color: darkblue;
+}
+
+.esqueceu-senha{
+    align-self: center;
+}
+
+.esqueceu-senha a{
+    font-size: 11px;
+    color: rgb(24, 70, 139);
+    text-decoration: none;
+}
+
+.n-usuario{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 15px 70px 15px 70px;
+    font-size: 13px;
+}
+
+.n-usuario a{
+    align-self: center;
+    text-decoration: none;
+    color: rgb(2, 154, 192);
+    font-weight: bold;
+}
+
+.obtenha-app{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.obtenha-app p{
+    font-size: 13px;
+}
+
+.stores{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.stores img{
+    height: 2.5rem;
+    width: auto;
+}
+
+.footer{
+    height: 250px;
+    display: flex;
+    margin-top: auto;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 12px;
+    align-self: flex-start;
+    color: gray;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+/* telas mobile*/
+
+@media (max-width: 1024px) {
+    .instagram-collumns{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-collumns{
+        width: 90%;
+    }
+
+    .phone-img{
+        display: none;
+    }
+
+    .login-box{
+        width: 90%;
+        padding-top: 2rem;
+    }
+}
