@@ -20,6 +20,7 @@ body{
     align-items: center;
     width: 50%;
     height: 100%;
+    padding-top: 300px;
 }
 
 .phone-img{
@@ -61,43 +62,80 @@ body{
     align-self: center;
     justify-self: center;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .box{
     display: block;
-    border: 1px solid rgb(186, 184, 184);
-    font-size: 11px;
-    color: rgb(131, 131, 131);
     margin-left: 30px;
     max-width: 15rem;
-    padding: 0px 15px 0px 3px;
-    border-radius: 2px;
-    margin-bottom: -15px;
-    
+    margin-bottom: -5px;
 }
 
-.bot-entrar{
+.box input{
+    border: 1px solid rgb(186, 184, 184);
+    font-size: 11.5px;
+    color: rgb(131, 131, 131);
+    border-radius: 2px;
+    padding: 9px 0px 9px 5px;
+    min-width: 250px;
+}
+
+.box input:focus{
+    outline: none;
+}
+
+
+.camp-botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
     background-color: #9ed8ff;
     color: #ffffff;
     font-size: 12px;
-    font-weight: 200000;
     padding: 0px 112px 0px 112px;
-    margin-top: 15px;
-    border: 5px 0 5px 0;
+    margin-top: 5px;
+    border-color: grey;
     border-radius: 4px;
     align-self: center;
     align-items: center;
+    outline: none;
+    box-shadow: none;
+}
+
+
+button{
+border-width: 20px 0 20px 0;
+border-style: none;
+min-height: 30px;
 }
 
 .ou{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     color: gray;
-    font-size: 13px;
-    align-self: center;
+    align-items: center;
 }
 
+.ou .linha1{
+    height: 1px;
+    width: 31%;
+    justify-self: right;
+    background-color: #dbdbdb;
+}
+
+.ou .linha2{
+    height: 1px;
+    width: 31%;
+    justify-self: left;
+    background-color: #dbdbdb;
+}
+
+.ou p{
+    font-size: 13px;
+}
 
 .entrar-face{
     display: flex;
@@ -190,6 +228,9 @@ body{
     font-size: 12px;
     align-self: flex-start;
     color: gray;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .contatos{
@@ -199,6 +240,8 @@ body{
     font-size: 12px;
     text-decoration: none;
     color: gray;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /* telas mobile*/
