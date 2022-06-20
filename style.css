@@ -1,0 +1,271 @@
+body{
+    display: flex;
+    background-color: #FFF;
+    margin: 0%;
+    padding: 0;
+    font-family: 'sans-serif', Helvetica;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.instagram-collumns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.phone-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+}
+
+.phone-img img {
+    height: 40rem;
+    width: auto;
+}
+
+.login-box{
+    display: block;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px;
+    width: 100%;
+    min-height: 30rem;
+    border-radius: 2px;
+    max-width: 20rem;
+    min-width: 20rem;
+}
+
+.ja-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    min-height: 25rem;
+    border-radius: 2px;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: block;
+    margin-left: 30px;
+    max-width: 15rem;
+    margin-bottom: -5px;
+}
+
+.box input{
+    border: 1px solid rgb(186, 184, 184);
+    font-size: 11.5px;
+    color: rgb(131, 131, 131);
+    border-radius: 2px;
+    padding: 9px 0px 9px 5px;
+    min-width: 250px;
+}
+
+.box input:focus{
+    outline: none;
+}
+
+
+.camp-botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    background-color: #9ed8ff;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 112px 0px 112px;
+    margin-top: 5px;
+    border-color: grey;
+    border-radius: 4px;
+    align-self: center;
+    align-items: center;
+    outline: none;
+    box-shadow: none;
+}
+
+
+button{
+border-width: 20px 0 20px 0;
+border-style: none;
+min-height: 30px;
+}
+
+.ou{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    align-items: center;
+}
+
+.ou .linha1{
+    height: 1px;
+    width: 31%;
+    justify-self: right;
+    background-color: #dbdbdb;
+}
+
+.ou .linha2{
+    height: 1px;
+    width: 31%;
+    justify-self: left;
+    background-color: #dbdbdb;
+}
+
+.ou p{
+    font-size: 13px;
+}
+
+.entrar-face{
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+/* .icon{
+    padding-bottom: -3000px;
+    align-content: flex-end;
+}
+
+.icon img{
+    padding-bottom: -3000px;
+}*/
+
+.entrar-face li{
+    list-style-image: url('/img/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea7a78165.0123240515221715596861.png');
+}
+
+.entrar-face a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(24, 70, 139);
+}
+
+/* .entrar-face li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: darkblue;
+    margin-right: 5px;
+    color: darkblue;
+}*/
+
+.esqueceu-senha{
+    align-self: center;
+}
+
+.esqueceu-senha a{
+    font-size: 11px;
+    color: rgb(24, 70, 139);
+    text-decoration: none;
+}
+
+.n-usuario{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 15px 70px 15px 70px;
+    font-size: 13px;
+}
+
+.n-usuario a{
+    align-self: center;
+    text-decoration: none;
+    color: rgb(2, 154, 192);
+    font-weight: bold;
+}
+
+.obtenha-app{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.obtenha-app p{
+    font-size: 13px;
+}
+
+.stores{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.stores img{
+    height: 2.5rem;
+    width: auto;
+}
+
+.footer{
+    height: 230px;
+    display: flex;
+    margin-top: auto;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 12px;
+    align-self: flex-start;
+    color: gray;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* telas mobile*/
+
+@media (max-width: 1024px) {
+    .instagram-collumns{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-collumns{
+        width: 90%;
+    }
+
+    .phone-img{
+        display: none;
+    }
+
+    .login-box{
+        width: 90%;
+        padding-top: 2rem;
+    }
+}
